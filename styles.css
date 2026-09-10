@@ -163,3 +163,16 @@ footer{border-top:1px solid var(--line);padding:38px 0;background:#fff}
 @media(max-width:600px){
   .brand-logo{width:165px;max-height:58px}
 }
+
+.application-card {
+  overflow: hidden;
+}
+
+.application-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  border-radius: 16px;
+  margin-bottom: 18px;
+}
